@@ -1,0 +1,18 @@
+div.exampleWidget > div.sidebar {
+    float: left;
+    overflow: auto;
+}
+div.exampleWidget > div.sidebar > div.thumb {
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+    margin: 0 10px 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #e0e0e0;
+    border: 1px solid #b0b0b0;
+    cursor: pointer;
+}
+div.exampleWidget > div.sidebar > div.thumb.active {
+    border: 2px solid #0000a0;
+}
